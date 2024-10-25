@@ -1,0 +1,70 @@
+
+body{
+    font-family: sans-serif;
+    background-color:darkslategrey;
+    background: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+header h1{
+    text-align: center;
+}
+
+/* Pseudo elementos aplicado ao h1: adicionando conteúdo antes */
+h1{
+    content: "Classes Sociais no Brasil:";
+    /* font-weight: 900; */
+    color: #000000;
+    background-color:rgb(0, 255, 200) ;
+    padding: 20px;
+    margin-top: 0;
+}
+/* h1::after{
+    margin: 10px;
+    color: black;
+    content: "vuutfu";
+} */
+nav ul{
+    list-style-type:none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color:chocolate ;
+    margin: 80px;
+    
+  
+
+     
+    
+}
+nav ul li{
+    margin: 20px 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:darkblue ;
+    font-size: 18px;
+    transition:background-color 0.5;
+}
+nav ul li a:hover{
+    background-color:chartreuse;
+    
+}
+nav ul li a:active{
+    background-color: crimson;
+}
+nav ul li a:visited{
+    background-color: black;
+
+}
+header{
+    text-align: center;
+}
+body img{
+    height: 400px;
+
+   
+}
+
